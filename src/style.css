@@ -1,0 +1,110 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+#Main {
+  color: #333;
+}
+.pupper {
+  font-family:impact;
+  color:lightgoldenrodyellow;
+  font-size: 75px;
+}
+
+#nav-bar {
+  background-color: #4793fd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+
+#nav-bar > * {
+  margin: 10px 0;
+}
+
+#nav-bar form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#nav-bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#nav-bar button {
+  background-color:#07970c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#nav-bar button:hover {
+  background-color:rgb(154, 249, 154);
+}
+
+#nav-bar button[type="submit"]:hover {
+  background-color:rgb(154, 249, 154);
+}
+
+#all-players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.player-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  width: 100%
+}
+
+.single-player-card {
+  flex-basis: 200px;
+  flex-grow: 1;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+
+
+.single-player-card img,
+.single-player-view img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #nav-bar {
+    font-size: 14px;
+    padding: 10px;
+  }}
+  
+
+
+
+
+
+
+
+
+
+
